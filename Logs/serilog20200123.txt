@@ -1,0 +1,144 @@
+2020-01-23 15:40:57.988 +02:00 [INF] Mail Service doing background work.
+2020-01-23 15:40:58.053 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-23 15:40:58.058 +02:00 [INF] Hosting environment: Production
+2020-01-23 15:40:58.059 +02:00 [INF] Content root path: C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:40:58.061 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:40:58.274 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 15:40:58.274 +02:00 [INF] Subject: Green
+2020-01-23 15:40:58.451 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 15:40:58.548 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 15:40:58.561 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 15:41:04.995 +02:00 [INF] Sent successfully on 1/23/2020 3:41:04 PM
+2020-01-23 15:41:58.062 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:42:20.553 +02:00 [INF] Application is shutting down...
+2020-01-23 15:42:20.574 +02:00 [INF] Mail service is stopping.
+2020-01-23 15:42:51.283 +02:00 [INF] Mail Service doing background work.
+2020-01-23 15:42:51.340 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-23 15:42:51.344 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:42:51.345 +02:00 [INF] Hosting environment: Production
+2020-01-23 15:42:51.346 +02:00 [INF] Content root path: C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:43:51.338 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:44:51.364 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:44:58.074 +02:00 [INF] Sent successfully on 1/23/2020 3:44:58 PM
+2020-01-23 15:44:58.075 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 15:44:58.075 +02:00 [INF] Subject: Green
+2020-01-23 15:45:51.342 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:46:51.341 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:47:51.360 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:48:51.342 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:49:03.163 +02:00 [INF] Sent successfully on 1/23/2020 3:49:03 PM
+2020-01-23 15:49:03.164 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 15:49:03.164 +02:00 [INF] Subject: Green
+2020-01-23 15:49:51.343 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:50:51.342 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:51:51.341 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:52:51.341 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:53:08.281 +02:00 [INF] Sent successfully on 1/23/2020 3:53:08 PM
+2020-01-23 15:53:08.282 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 15:53:08.282 +02:00 [INF] Subject: Green
+2020-01-23 15:53:51.344 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:54:51.342 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:55:51.343 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:56:51.342 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:57:15.170 +02:00 [INF] Sent successfully on 1/23/2020 3:57:15 PM
+2020-01-23 15:57:15.170 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 15:57:15.170 +02:00 [INF] Subject: Green
+2020-01-23 15:57:42.471 +02:00 [INF] Sent successfully on 1/23/2020 3:57:42 PM
+2020-01-23 15:57:42.472 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 15:57:42.472 +02:00 [INF] Subject: Red
+2020-01-23 15:57:51.349 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:58:51.344 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 15:59:51.344 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:00:51.342 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:01:24.467 +02:00 [INF] Sent successfully on 1/23/2020 4:01:24 PM
+2020-01-23 16:01:24.467 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:01:24.467 +02:00 [INF] Subject: Green
+2020-01-23 16:01:51.345 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:02:51.343 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:03:51.355 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:04:51.346 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:05:28.981 +02:00 [INF] Sent successfully on 1/23/2020 4:05:28 PM
+2020-01-23 16:05:28.981 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:05:28.981 +02:00 [INF] Subject: Green
+2020-01-23 16:05:51.342 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:06:51.345 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:07:51.346 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:08:51.344 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:09:34.175 +02:00 [INF] Sent successfully on 1/23/2020 4:09:34 PM
+2020-01-23 16:09:34.175 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:09:34.175 +02:00 [INF] Subject: Green
+2020-01-23 16:09:51.343 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:10:51.345 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:11:51.345 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:12:39.214 +02:00 [INF] Sent successfully on 1/23/2020 4:12:39 PM
+2020-01-23 16:12:39.214 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:12:39.214 +02:00 [INF] Subject: Blue
+2020-01-23 16:12:51.352 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:13:44.436 +02:00 [INF] Sent successfully on 1/23/2020 4:13:44 PM
+2020-01-23 16:13:44.436 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:13:44.437 +02:00 [INF] Subject: Green
+2020-01-23 16:13:51.356 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:13:51.488 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 16:14:42.720 +02:00 [INF] Sent successfully on 1/23/2020 4:14:42 PM
+2020-01-23 16:14:42.721 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:14:42.721 +02:00 [INF] Subject: Red
+2020-01-23 16:14:51.358 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:15:51.361 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:16:51.361 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:17:51.368 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:17:51.371 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 16:17:59.938 +02:00 [INF] Sent successfully on 1/23/2020 4:17:59 PM
+2020-01-23 16:17:59.938 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:17:59.938 +02:00 [INF] Subject: Green
+2020-01-23 16:18:51.369 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:19:51.385 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:20:51.375 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:21:51.377 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:22:51.384 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:22:51.396 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 16:23:10.434 +02:00 [INF] Sent successfully on 1/23/2020 4:23:10 PM
+2020-01-23 16:23:10.435 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:23:10.435 +02:00 [INF] Subject: Green
+2020-01-23 16:23:51.395 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:24:51.383 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:25:51.386 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:26:51.388 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:27:51.389 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:27:51.391 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 16:27:51.394 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 16:28:20.489 +02:00 [INF] Sent successfully on 1/23/2020 4:28:20 PM
+2020-01-23 16:28:20.489 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:28:20.489 +02:00 [INF] Subject: Green
+2020-01-23 16:28:51.405 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:29:51.407 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:29:51.415 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 16:30:00.519 +02:00 [ERR] System.Net.Mail.SmtpException:The operation has timed out.
+2020-01-23 16:30:51.393 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:31:51.395 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:32:51.397 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:32:51.399 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 16:33:31.413 +02:00 [ERR] System.Net.Mail.SmtpException:The operation has timed out.
+2020-01-23 16:33:51.412 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:34:51.415 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:35:51.401 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:36:51.403 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:37:51.407 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:37:51.410 +02:00 [ERR] System.InvalidOperationException:An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+2020-01-23 16:38:25.255 +02:00 [INF] Application is shutting down...
+2020-01-23 16:38:25.269 +02:00 [INF] Mail service is stopping.
+2020-01-23 16:50:08.227 +02:00 [INF] Mail Service doing background work.
+2020-01-23 16:50:08.276 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-23 16:50:08.281 +02:00 [INF] Hosting environment: Production
+2020-01-23 16:50:08.283 +02:00 [INF] Content root path: C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:50:08.284 +02:00 [INF] C:\Users\dpalyov\source\repos\MailServiceWorker
+2020-01-23 16:50:15.118 +02:00 [INF] Sent successfully on 1/23/2020 4:50:15 PM
+2020-01-23 16:50:15.123 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:50:15.123 +02:00 [INF] Subject: Green
+2020-01-23 16:50:23.281 +02:00 [INF] Sent successfully on 1/23/2020 4:50:23 PM
+2020-01-23 16:50:23.283 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:50:23.283 +02:00 [INF] Subject: Red
+2020-01-23 16:50:29.984 +02:00 [INF] Sent successfully on 1/23/2020 4:50:29 PM
+2020-01-23 16:50:29.985 +02:00 [INF] To: dpalyov@visteon.com
+2020-01-23 16:50:29.985 +02:00 [INF] Subject: Blue
+2020-01-23 17:02:25.240 +02:00 [INF] Application is shutting down...
+2020-01-23 17:02:25.248 +02:00 [INF] Mail service is stopping.

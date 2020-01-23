@@ -19,14 +19,19 @@ namespace MailServiceWorker
             }
 
         }
-
+        /// <summary>
+        /// Building the hosted service - Configuration, Logger, registering services to the DI Container
+        /// </summary>
+        /// <param name="args">1 arg to specify which would be the locaton of the configuration file</param>
+        /// <returns></returns>
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
+                    //System.Diagnostics.Debugger.Launch();
 
                     var configFile = args.Length == 0
-                                        ? throw new ArgumentNullException("Missing configuration path argument!")
+                                        ? throw new ArgumentException("Missing configuration path argument!")
                                         : args[0];
 
                     if (!File.Exists(configFile))
@@ -44,25 +49,27 @@ namespace MailServiceWorker
                     var configuration = builder.Build();
 
                     var dir = Path.GetDirectoryName(Path.Combine(Environment.CurrentDirectory, configFile));
-                    var logPath = Path.Combine(dir, "serilog.txt");
+                    var logPath = Path.Combine("Logs", "serilog.txt");
 
                     services.AddLogging(config =>
                     {
                         config.AddConfiguration(configuration.GetSection("Logging"))
-                        .AddSerilog(new LoggerConfiguration().WriteTo.File(logPath).CreateLogger())
+                        .AddSerilog(new LoggerConfiguration().WriteTo.File(logPath, rollingInterval: RollingInterval.Day).CreateLogger())
                         .AddConsole();
                     });
 
                     services.AddSingleton<IMailService, MailClient>();
+                    // var mailService = new MailClient();
 
+                    //mailService.ConfigureClient("vistsmtp.visteon.com", 25, true);
                     var sp = services.BuildServiceProvider();
-                    var mailService = (IMailService)sp.GetService(typeof(IMailService));
-                    var loggerService = (ILogger<TimedService>)sp.GetService((typeof(ILogger<TimedService>)));
-                    mailService.ConfigureClient("vistsmtp.visteon.com", 25, true);
+                    var loggerService = sp.GetService<ILogger<TimedService>>();
+                    var mailService = sp.GetService<IMailService>();
 
-                    services.AddHostedService<TimedService>(p => new TimedService(args, mailService, configuration,loggerService));
+                    services.AddHostedService<TimedService>(p => new TimedService(mailService, configuration,loggerService));
 
 
-                });
+                })
+                .UseWindowsService();
     }
 }

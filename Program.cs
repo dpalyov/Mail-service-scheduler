@@ -28,16 +28,17 @@ namespace MailServiceWorker
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
-                    //System.Diagnostics.Debugger.Launch();
+                    // var configFile = args.Length == 0
+                    //                     ? throw new ArgumentException("Missing configuration path argument!")
+                    //                     : args[0];
 
-                    var configFile = args.Length == 0
-                                        ? throw new ArgumentException("Missing configuration path argument!")
-                                        : args[0];
+                    // if (!File.Exists(configFile))
+                    // {
+                    //     throw new IOException("Config file not found!");
+                    // }
+                    var appDirectory = $"C:\\USERS\\{Environment.GetEnvironmentVariable("USERNAME")}\\AppData\\Local\\MailService\\";
 
-                    if (!File.Exists(configFile))
-                    {
-                        throw new IOException("Config file not found!");
-                    }
+                    var configFile = Path.Combine(appDirectory, "appsettings.json");
 
                     var builder = new ConfigurationBuilder();
                     builder.AddJsonFile(
@@ -49,7 +50,7 @@ namespace MailServiceWorker
                     var configuration = builder.Build();
 
                     var dir = Path.GetDirectoryName(Path.Combine(Environment.CurrentDirectory, configFile));
-                    var logPath = Path.Combine("Logs", "serilog.txt");
+                    var logPath = Path.Combine(appDirectory, "Logs", "serilog.txt");
 
                     services.AddLogging(config =>
                     {

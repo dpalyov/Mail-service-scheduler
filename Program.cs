@@ -36,9 +36,9 @@ namespace MailServiceWorker
                     // {
                     //     throw new IOException("Config file not found!");
                     // }
-                    var appDirectory = $"C:\\USERS\\{Environment.GetEnvironmentVariable("USERNAME")}\\AppData\\Local\\MailService\\";
+                    var appDirectory = $"C:\\ProgramData\\Applications\\MailServiceWorker\\";
 
-                    var configFile = Path.Combine(appDirectory, "appsettings.json");
+                    var configFile = "appsettings.json";
 
                     var builder = new ConfigurationBuilder();
                     builder.AddJsonFile(

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 using MailService;
@@ -41,10 +42,10 @@ namespace MailServiceWorker
         {
 
             _logger.LogInformation($"Mail Service doing background work.");
-            var interval = 0;
+            float interval = 0;
             try
             {
-                int.TryParse(_configuration.GetSection("HoursInterval").Value, out interval);
+                float.TryParse(_configuration.GetSection("HoursInterval").Value, out interval);
             }
             catch (InvalidCastException ex)
             {
@@ -74,6 +75,12 @@ namespace MailServiceWorker
         /// <returns>Void</returns>
         private async void DoWork(object state)
         {
+            bool.TryParse(_configuration.GetSection("Debug").Value, out bool debug);
+
+            if(debug)
+            {
+                Debugger.Launch();
+            }
 
             var emails = _mailService.ReadEmails();
             //build the message body
